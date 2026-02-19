@@ -146,11 +146,36 @@ table#tabelaspec {
     margin-right: auto;
 }
 
+table#tabelaspec caption {
+    color: #888888;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+table#tabelaspec caption>span {
+    display: block;
+    float: right;
+    font-size: 10pt;
+    color: #000000;
+    margin-top: 10px;
+}
+
 table#tabelaspec td {
-    border: 1px solid #000000;
+    border: 1px solid #606060;
     padding: 10px;
     text-align: center;
-    vertical-align: middle  ;
+    vertical-align: middle;
+}
+
+table#tabelaspec td.ce {
+    color: #FFFFFF;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+table#tabelaspec td.cd {
+    background: #cecece;
 }
 
 /*ASIDE*/
